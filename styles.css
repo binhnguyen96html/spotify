@@ -1,0 +1,257 @@
+body{
+    width: 1496px;
+}
+
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+    padding-top: 20px; 
+    font-size: 24px; 
+    color: #ffffff;
+}
+
+
+
+
+#wrapper{
+    width: 1496px;
+    height: 690px;
+    /* margin: 20px auto; */
+    /* border: 2px solid #000000; */
+    /* background-color: #ffffff; */
+    background-color: pink;
+    background-image: linear-gradient(#ffffff, grey);
+}
+
+
+
+.div1{
+    float: left;
+    width: 250px ;
+    height: 690px;
+    /* margin-right: 20px; */
+    background-color: #000000;
+    font-family: 'Alata', sans-serif;
+    font-size: 4px;
+    
+    }
+
+
+    /* cookies, privacy */
+.div1d{
+    padding-top: 300px;
+    padding-left: 30px;
+}
+
+
+
+.icon {
+    position: relative;
+    top: 4px;
+    left: 0;
+    /* border: 1px solid #000000; */
+    }
+
+
+
+
+
+
+/* Div2 */
+.div2{
+    /* float: left; */
+    /* width: 1246px; */
+    border-left: 1px solid;
+    /* height: 1000px; */
+    /* border-right: 2px solid #000000; */
+}
+
+
+/* back, forward */
+.div2a1{
+    float: left;
+    width: 150px;
+    height: 70px;
+    /* padding-top: 20px; */
+    /* padding-left: 30px; */
+    background-color: #000000;
+    opacity:0.97;  
+
+}
+
+/* premium, support, download, signup, login */
+.div2a2{
+    float: left;
+    width: 1095px;
+    height: 70px;
+    background-color: #000000;
+    /* padding-bottom: 5px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    opacity:0.97;  
+    text-align: right;
+}
+
+.div2a3{
+    float: left;
+   height: 70px;
+   background-color: #000000;
+   width:1245px;
+   height: 70px;
+   opacity: 0.93;
+}
+p.playlists{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px; 
+    color: #ffffff;
+    font-family: 'Alata', sans-serif;
+    padding-left: 30px;
+}
+
+
+
+
+
+/* song list 1 */
+.div2b{
+    float: left;
+    /* padding-top: 20px; */
+    width: 1245px;
+    height: 255px;
+    background-color: #000000;
+    opacity:0.93;
+    /* padding-left: 10px; */
+}
+
+
+
+
+/* song list 2 */
+.div2c{
+    float: left;
+    /* padding-top: 30px; */
+    width: 1245px;
+    height: 255px;
+    background-color: #000000;
+    opacity:0.93;
+}
+
+
+/* footer */
+.div4{
+    float: left;
+    width:1245px;
+    height: 40px;
+    font-family: 'Alata', sans-serif;
+    background-color: #000000;
+    opacity: 0.97;
+}
+
+
+
+/* image */
+div.gallery {
+    margin: 20px;
+    float: left;
+    width: 180px;
+    height: 200px;
+    padding-left: 15px;
+  }
+
+
+.gallery:hover {
+    border: 1px solid rgb(7, 9, 12);
+    opacity: 0.8;
+    }
+
+
+.image {
+    border-radius: 20px;
+    padding: 15px; 
+    width: 150px; 
+    /* border: 2px solid rgb(55, 54, 56); */
+    position: relative;
+    z-index: 2;
+  }
+
+  
+  .imageoverlap {
+    opacity:0.04;
+    /* border: 1px solid #0f0; */
+    position: relative;
+    z-index: 1;
+    width:180px ;
+    height: 240px;
+    top: -230px;
+    left: 0px;
+  }
+
+  .iconplay{
+    position: relative;
+    z-index: 3;
+    top: -50px;
+    left: 130px;
+    opacity: 0.7;
+    width: 30px;
+  }
+
+  .iconpause{
+    position: relative;
+    z-index: 3;
+    top: -50px;
+    left: 60px;
+    width: 50px;
+    opacity: 0.7;
+    width: 30px;
+  }
+
+p.title{
+    position: absolute;
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Alata', sans-serif;
+    font-size: 14px;
+    padding-left: 15px;
+    /* padding-top: px; */
+  }
+
+
+
+
+  /* p.description{
+    position: absolute;
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Alata', sans-serif;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-bottom:  px;
+  } */
+
+
+
+  /* div.desc {
+    float: left;
+    padding: 15px;
+    text-align: left;
+    color: #ffffff;
+    position: absolute;
+  } */
+
+
+
+    /* .div2b{
+    position: relative;
+    z-index: 1;
+  } */
+
+/*   
+  .div2b{
+    position: relative;
+  }
+  .gallery{
+    position: relative;
+  }
+  .desc{
+    position: absolute;
+  } */
